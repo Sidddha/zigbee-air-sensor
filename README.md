@@ -15,4 +15,19 @@
 
 Для индикации выбран RGB TFT дисплей 80x160 точек с контроллером [ST7725S](docs/ST7735S_V1.1.pdf)
 
+# Zeegbee air quality sensor
+The goal of this project is developing a device with the following functionality:  
+* Measure air temperature
+* Measure humidity
+* Measure CO2 concentration
+* Battery operation for at least 6 months
+* Wireless connection through Zigbee protocol, IEEE 802.15.4
+* Displaying information on the TFT screen
+## Hardware
+A module based on MC [ESP32-H2-MINI-1U-N4](docs/esp32-h2_datasheet_en.pdf) is chosen as the main computing unit.
 
+Combined sensor [AHT10](docs/AHT10_en.pdf) is chosen for temperature and humidity measuring 
+
+[CCS811](docs/CCS811_Datasheet.pdf) sensor is chosen for CO2 measuring
+
+[ST7725S](docs/ST7735S_V1.1.pdf) display is chosen for indication
